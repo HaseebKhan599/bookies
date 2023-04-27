@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+.logoDiv {
+  width: 20%;
+  height: 110px;
+  border-bottom: 2px solid rgb(245, 245, 245);
+  border-right: 2px solid rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 25%;
+  background-color: #ac833f;
+  box-shadow: 0 0 3px #9c7638;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo h3 {
+  margin-top: 25%;
+  color: white;
+  font-size: 13px;
+}
+
+#logo-title {
+  margin-top: 3%;
+  color: rgb(48, 48, 48);
+  font-size: 13px;
+}

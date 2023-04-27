@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+.utilityBorder {
+  border: 1px dotted blue;
+}
+
+#navbarDiv {
+  width: 80%;
+  height: 95px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+#sentToDiv {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sentToInnerDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: -30%;
+}
+
+#sentTo {
+  margin-top: 20%;
+  color: rgb(122, 118, 118);
+  font-size: 12px;
+}
+
+#sentToLoc {
+  font-size: 13px;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+.sentToInnerMostDiv {
+  display: flex;
+}
+
+#downArrow {
+  margin-top: 24%;
+  margin-left: 8px;
+}
+
+#locIcon {
+  margin-top: -6px;
+  margin-right: 7px;
+}
+
+#searchDiv {
+  margin-top: 15px;
+  width: 40%;
+  display: flex;
+}
+
+#inputSearch {
+  width: 100%;
+  height: 45px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(245, 246, 248);
+  border: none;
+  padding-bottom: 5px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+#searchIconDiv {
+  height: 45px;
+  width: 60px;
+  background-color: rgb(245, 246, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#searchIcon {
+}
