@@ -1,0 +1,43 @@
+#iconsDiv {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#iconsInnerDiv {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#profileLogoDiv {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+#profileLogo {
+  width: 32px;
+  height: 32px;
+  background-image: url(AHK.jpg);
+  background-size: cover;
+  border-radius: 50px;
+}
+
+#icons {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sentToInnerMostDiv {
+  display: flex;
+}
+
+#downArrow {
+  margin-top: 24%;
+  margin-left: 8px;
+}

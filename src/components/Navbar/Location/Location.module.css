@@ -1,0 +1,40 @@
+#sentToDiv {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sentToInnerDiv {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+
+#sentTo {
+  margin-top: 20%;
+  color: rgb(122, 118, 118);
+  font-size: 12px;
+}
+
+#sentToLoc {
+  font-size: 13px;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+.sentToInnerMostDiv {
+  display: flex;
+}
+
+#downArrow {
+  margin-top: 24%;
+  margin-left: 8px;
+}
+
+#locIcon {
+  margin-top: -6px;
+  margin-right: 7px;
+}

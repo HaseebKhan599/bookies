@@ -1,0 +1,38 @@
+#searchDiv {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+#searchInnerDiv {
+  display: inherit;
+  width: 100%;
+}
+
+#inputSearch {
+  width: 100%;
+  height: 45px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(245, 246, 248);
+  border: none;
+  padding-bottom: 5px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+#searchIconDiv {
+  height: 45px;
+  width: 60px;
+  background-color: rgb(245, 246, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
