@@ -1,5 +1,5 @@
 #iconsDiv {
-  width: 40%;
+  width: 32%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 #iconsInnerDiv {
-  width: 50%;
+  width: 67%;
   display: flex;
   justify-content: space-between;
 }

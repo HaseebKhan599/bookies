@@ -1,9 +1,9 @@
-.App {
-  text-align: center;
+#testClass {
+  border: 1px dotted blue;
 }
 
-#appDiv {
-  display: flex;
+.App {
+  text-align: center;
 }
 
 .App-logo {

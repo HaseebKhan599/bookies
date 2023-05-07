@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
 
 #navbarDiv {
-  width: 80%;
-  height: 95px;
+  width: 100%;
+  height: 110px;
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
