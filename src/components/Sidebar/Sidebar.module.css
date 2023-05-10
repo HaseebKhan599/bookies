@@ -7,9 +7,19 @@
 
 .sidebarSections {
   width: 100%;
-  height: 200px;
   border-bottom: 2px solid rgb(245, 245, 245);
   border-right: 2px solid rgb(245, 245, 245);
+  padding-bottom: 1.7rem;
+}
+
+.boldText {
+  font-size: 13px;
+  font-weight: bolder;
+  margin-top: 18px;
+}
+
+#rightArrow {
+  margin: 0 10px;
 }
 
 #addressDiv {
@@ -19,12 +29,65 @@
   align-items: center;
 }
 
-.addressText {
-  font-size: 13px;
-  font-weight: bolder;
-  margin-top: 18px;
+#filterDiv {
+  width: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#rightArrow {
-  margin: 0 10px;
+#downArrow {
+  margin: 4px 0 0 8px;
+}
+
+#slider {
+  margin-right: 8px;
+}
+
+#categories {
+  padding-left: 4rem;
+}
+
+#choicesDiv {
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+
+#categoryText {
+  margin: 0 0 0.5rem 0;
+}
+
+#locations {
+  padding-left: 4rem;
+}
+
+#locationDiv {
+  padding-top: 1.8rem;
+}
+
+#locationText {
+  margin: 0 0 0.5rem 0;
+}
+
+#pricetag {
+  margin-right: 8px;
+}
+
+.priceRanges {
+  border-radius: 50px;
+  width: 70%;
+  height: 2.5rem;
+  font-size: 13px;
+  color: rgb(151, 149, 149);
+  background-color: rgb(245, 246, 248);
+  text-align: center;
+  padding-top: 0.65rem;
+  margin: 0 0 0.7rem 2rem;
+}
+
+#priceRange2 {
+  width: 62%;
 }
