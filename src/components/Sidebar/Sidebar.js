@@ -2,6 +2,9 @@ import Choice from "./Choice/Choice";
 import Styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
+  const locations = ["Yogyakarta", "Jakarta", "Semarang", "Palembang"];
+  const categories = ["Adventure", "Fantasy", "Science fiction", "Romance"];
+
   return (
     <>
       <div id={Styles.sidebarDiv}>
@@ -68,10 +71,9 @@ const Sidebar = () => {
               </p>
             </div>
             <div id={Styles.choicesDiv}>
-              <Choice choiceText="Adventure" />
-              <Choice choiceText="Fantasy" />
-              <Choice choiceText="Science fiction" />
-              <Choice choiceText="Romance" />
+              {categories.map((category) => (
+                <Choice choiceText={category} />
+              ))}
             </div>
           </div>
         </div>
@@ -83,10 +85,9 @@ const Sidebar = () => {
               </p>
             </div>
             <div id={Styles.choicesDiv}>
-              <Choice choiceText="Yogyakarta" />
-              <Choice choiceText="Jakarta" />
-              <Choice choiceText="Semarang" />
-              <Choice choiceText="Palembang" />
+              {locations.map((location) => (
+                <Choice choiceText={location} />
+              ))}
             </div>
           </div>
         </div>

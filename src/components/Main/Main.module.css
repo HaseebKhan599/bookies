@@ -1,0 +1,77 @@
+#mainDiv {
+  width: 100%;
+  padding: 0 4.1rem 0 2.9rem;
+}
+
+#bigSaleCol {
+  height: 22rem;
+}
+
+#bigSaleDiv {
+  width: 96.6%;
+  height: 100%;
+  background-image: url("./booksSale.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 3rem 0 0 3rem;
+}
+
+.borderU {
+  border: 1px dotted blue;
+}
+
+.mainRows {
+  width: 100%;
+  margin-bottom: 2.8rem;
+}
+
+#bigSaleText {
+  width: 55%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+#textCredit {
+  font-size: 0.5em;
+}
+
+.saleBtns {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 2.4rem;
+  font-size: 0.7em;
+}
+
+#saleBtn1 {
+  background-color: #ac833f;
+  box-shadow: 0 0 4px #9c7638;
+  color: white;
+  width: 16%;
+}
+
+#saleBtn1:hover {
+  background-color: #a87624;
+  box-shadow: 0 0 4px #a87624;
+  color: white;
+}
+
+#saleBtn2 {
+  background-color: white;
+  box-shadow: 0 0 4px white;
+  color: #ac833f;
+  width: 18%;
+}
+
+#saleBtn2:hover {
+  background-color: rgb(233, 232, 232);
+  box-shadow: 0 0 4px rgb(233, 232, 232);
+  color: #ac833f;
+}
+
+#saleBtnsDiv {
+  padding-top: 3.5rem;
+}

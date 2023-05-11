@@ -1,0 +1,41 @@
+.borderU {
+  border: 1px dotted blue;
+}
+
+.boldText {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+#cardImageDiv {
+  width: 90%;
+  height: 14.6rem;
+  border-radius: 15px;
+  /* background-image: url("./images/storytellingwb.jpg"); */
+  background-size: cover;
+  padding: 0.7rem 0 0 0.7rem;
+}
+
+#cardInfoDiv {
+  width: 90%;
+  height: 8rem;
+  padding-top: 2rem;
+}
+
+#bookName {
+  margin: 0 0 0.3rem 0;
+}
+
+#bookPrice {
+  margin: 0;
+}
+
+#writerNameDiv {
+  display: flex;
+}
+
+#name {
+  margin: 0 0 0.9rem 0;
+  font-size: 0.7em;
+  color: rgb(122, 118, 118);
+}

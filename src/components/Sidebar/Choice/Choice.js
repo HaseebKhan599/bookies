@@ -1,10 +1,10 @@
 import Styles from "./Choice.module.css";
 
-const Choice = (props) => {
+const Choice = ({ choiceText }) => {
   return (
     <div id={Styles.choiceDiv}>
       <input type="checkbox" />
-      <p id={Styles.choiceText}>{props.choiceText}</p>
+      <p id={Styles.choiceText}>{choiceText}</p>
     </div>
   );
 };

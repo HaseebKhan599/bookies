@@ -2,6 +2,7 @@ import Styles from "./App.module.css";
 import Logo from "./components/Logo/Logo";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <div className="col-lg-2">
           <Sidebar />
         </div>
-        <div className="col-lg-10"></div>
+        <div className="col-lg-10">
+          <Main />
+        </div>
       </div>
     </div>
   );
