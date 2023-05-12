@@ -11,28 +11,28 @@ const Main = () => {
     {
       bookName: "Company of One",
       imageURL: image2,
-      rating: 5,
+      rating: "4.8",
       bookPrice: "1.700.000",
       writerName: "Paul Jarvis",
     },
     {
       bookName: "Milk and Honey",
       imageURL: image3,
-      rating: 4.5,
+      rating: "5.0",
       bookPrice: "685.000",
       writerName: "Rupi Kaur",
     },
     {
       bookName: "The Picture of Dorian",
       imageURL: image4,
-      rating: 4.8,
+      rating: "4.5",
       bookPrice: "250.000",
       writerName: "Oscar Wilde",
     },
     {
       bookName: "The Vampyres",
       imageURL: image5,
-      rating: 4.2,
+      rating: "4.7",
       bookPrice: "2.750.000",
       writerName: "Christopher Frayling",
     },
@@ -60,7 +60,7 @@ const Main = () => {
         <Card
           bookName="Storytelling Workbook"
           imageURL={image1}
-          rating="4.9"
+          rating="4.2"
           bookPrice="810.000"
           writerName="James Squarespace"
         />

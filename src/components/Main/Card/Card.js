@@ -1,6 +1,7 @@
 import Styles from "./Card.module.css";
 import VerifiedLogo from "./VerifiedLogo/VerifiedLogo";
 import Label from "./Label/Label";
+import Rating from "./Rating/Rating";
 
 const Card = ({ bookName, imageURL, rating, bookPrice, writerName }) => {
   return (
@@ -9,7 +10,10 @@ const Card = ({ bookName, imageURL, rating, bookPrice, writerName }) => {
         id={Styles.cardImageDiv}
         style={{ backgroundImage: `url(${imageURL})` }}
       >
-        <Label labelText="Flash Sale" />
+        <div id={Styles.cardImgInnerDiv}>
+          <Label labelText="Flash Sale" />
+          <Rating rating={rating} />
+        </div>
       </div>
       <div id={Styles.cardInfoDiv}>
         <p id={Styles.bookName} className={Styles.boldText}>

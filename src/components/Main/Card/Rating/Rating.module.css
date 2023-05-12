@@ -1,18 +1,24 @@
-#labelDiv {
-  width: 40%;
+#ratingDiv {
+  width: 26%;
   border-radius: 5px;
   padding: 0.4rem 0 0.4rem 0;
   background-color: rgba(0, 0, 0, 0.301);
   color: rgba(255, 255, 255, 0.897);
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#labelText {
+#ratingText {
   margin: 0;
   font-size: 0.8em;
 }
 
-#labelDiv:hover {
+#ratingDiv:hover {
   background-color: rgba(0, 0, 0, 0.432);
   color: rgb(255, 255, 255);
+}
+
+#ratingStar {
+  margin-top: 0.2rem;
+  color: rgb(218, 158, 29);
 }
